@@ -10,7 +10,7 @@ shinyServer(function(input, output) {
   library("shinyIncubator")
   library("RColorBrewer")
   library("sentiment")
- 
+ library("SnowballC")
 
   api_key <- "te4eJxLeHFaM1aVJ0gUrAkUJ4"
   api_secret <- "enRZchObOyyfRphlShAQS9iQUeREFxYpSelCbAc9vjYor7DT2W"
